@@ -26,11 +26,32 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "theendhunter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: The_end_Hunter
 github_username:  TheEndHunter
-
+markdown: CommonMark
 # Build settings
 theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+  - jekyll-default-layout
+  - jekyll-coffeescript
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+   - jekyll-readme-index
+   - jekyll-optional-front-matter
+   - Jekyll-github-metadata
+   - jekyll-gist
+relative_links:
+  enabled:     true
+  collections: false
+  
+readme_index:
+  enabled:          false
+  remove_originals: false
+  with_frontmatter: false
+  
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
