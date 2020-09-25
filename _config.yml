@@ -22,13 +22,15 @@ title: TheEndHunter.github.io
 email: 8478343+TheEndHunter@users.noreply.github.com
 description: >- # this means to ignore newlines until "baseurl:"
   website for all github projects created by TheEndHunter
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "theendhunter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://theendhunter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: The_end_Hunter
 github_username:  TheEndHunter
-markdown: CommonMark
+markdown: CommonMarkGhPages
+
 # Build settings
 theme: jekyll-theme-midnight
+
 plugins:
   - jekyll-feed
   - jekyll-default-layout
