@@ -1,8 +1,7 @@
 ---
 layout: default
-title: authors
+title: Authors
 description: list of authors
-permalink: /Authors/
 ---
 
 {% for author in site.authors %}
